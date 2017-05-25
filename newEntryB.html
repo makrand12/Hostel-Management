@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Enter New Entry</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+<style>
+    body{
+	background-color: #EBF4FA;
+	font-family : Helvetica; 
+    }
+    
+    h1{
+	background-color: #728FCE;
+	color : white;
+	text-align : center;
+	padding:10px;
+    }
+    h3{
+        text-align: center;
+        clear:both;
+	padding:7px;
+	background-color:#cde5ef;
+	color:#333;
+	text-align:center;
+        font-family:initial;
+    }
+    
+</style>
+
+        
+    </head>
+    <body class = "boddy">
+    <h1> HOSTEL MANAGEMENT  </h1>
+    <h3>
+        <b> BOYS DATABASE NEW ENTRY </b>
+         <form name="boysEntry" action="BnewEntry.jsp" method="POST">
+    </h3>
+    <center>
+    <table>
+        <tr><td>ID:</td> <td><input type="text" name="ID" value="" size="20" /></td></tr>
+        <tr><td><h4> Name: </h4></td> <td><input type="text" name="Name" value="" size="20" /></td></tr>
+    <tr><td> <h4> Date of Birth:</h4></td> <td><input type="text" name="DoB" value="" size="20" /> </td>
+    </tr>
+    <tr><td><h4>Blood Group:</h4>   </td> <td>  <input type="text" name="BG" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Address:</h4> </td> <td><input type="text" name="Add" value="" size="20" /></td>
+    </tr>
+    <tr><td><h4>Mobile(Self):</h4></td> <td><input type="text" name="MobS" value="" size="20" /></td>
+    </tr>
+     <tr><td><h4>Moblie(Parent):</h4></td> <td><input type="text" name="MobP" value="" size="20" /></td>
+    </tr>
+    <input type="hidden" name="sex" value="boy"/>
+    <tr>
+        <td>
+     
+        </td>
+    </tr>
+    </table>
+        <input type="submit" value="ENTER" name="Go Back" style="height: 45px;width: 75px"/>
+        </center>
+    </form>
+        <a href="boyoptn.html"> <button class="btn btn-success"> <h4>GO BACK</h4>  </button>  </a>
+    </body>
+</html>

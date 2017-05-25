@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        
+        <title>USER LOGIN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+<style>
+    body{
+	background-color: #EBF4FA;
+	font-family : Helvetica; 
+    }
+    
+    h1{
+	background-color: #728FCE;
+	color : white;
+	text-align : center;
+	padding:10px;
+    }
+    .lout{
+        margin: 1150px; 
+    }
+</style>
+
+
+    </head>
+    <body>
+    <h1> HOSTEL MANAGEMENT  </h1>
+    <center>
+    <h2> BOYS </h2>
+     <h2> Enter the ID to Display : </h2>
+     <form name="usrdisp" action="Bdisp.jsp" method="POST">
+    <input type="text" name="ip" value="" size="30" />
+    <input class="btn-primary" type="submit" value="GO" name="gobttn" />
+    
+    </form>
+     
+     </br>
+     <h2> GIRLS </h2>
+     <h2> Enter the ID to Display : </h2>
+     <form name="usrdisp" action="Gdisp.jsp" method="POST">
+    <input type="text" name="ip" value="" size="30" />
+    <input class="btn-primary" type="submit" value="GO" name="gobttn" />
+    </form>
+    </center>
+    <a class="lout" href="index.html"><button class="btn btn-danger"> <h3>LOGOUT</h3> </button> </a>
+    </body>
+</html>
+

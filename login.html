@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="login.css" rel="stylesheet" type="text/css" >
+        <title>ADMIN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1> HOSTEL MANAGEMENT </h1>
+        <div class="container">
+        <div class="login">
+        <h1>Admin Login</h1><br>
+        
+         Username : <input type="text" id="myText" value=""> </br>
+         Password : <input type="password" id="mypass" value=""> </br>
+         </div>
+         </div>
+        
+             <button class="submitt" onclick="myFunction()">Login</button>
+        
+<script>
+    function Redirect() {
+               window.location="gbchoice.html";
+           }
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    var y = document.getElementById("mypass").value;
+ if(x=="admin" && y=="admin")
+{
+    Redirect();
+    //document.getElementById("usr").innerHTML = x;
+    //document.getElementById("pas").innerHTML = y;
+ }
+else
+alert("SORRY !!!Unauthorized User !!");   
+}
+</script>
+</body>
+</html>
+
